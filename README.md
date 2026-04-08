@@ -5,9 +5,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
--1 
-### `npx intall`
-### `npx run build`
+-1 =>
+### `rd /s /q node_modules`
+### `del package-lock.json`
+### `npm cache clean --force`
+
+-2=>
+### `npm install react-scripts@5.0.1`
 ### `npm start`
 
 Runs the app in the development mode.\
